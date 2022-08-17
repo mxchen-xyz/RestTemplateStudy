@@ -1,6 +1,4 @@
 package com.jincou.order.dao;
-
-import com.jincou.common.domain.Goods;
 import com.jincou.common.domain.GoodsOrder;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;

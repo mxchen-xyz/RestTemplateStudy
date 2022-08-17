@@ -1,5 +1,6 @@
 package com.jincou.order;
 
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
@@ -12,6 +13,7 @@ import org.springframework.web.client.RestTemplate;
  * @author xub
  * @date 2021/3/30 下午3:39
  */
+@MapperScan("com.jincou.order.dao")
 @SpringBootApplication
 public class OrderApplication {
 
