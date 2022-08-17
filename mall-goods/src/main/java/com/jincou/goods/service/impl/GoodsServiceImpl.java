@@ -4,8 +4,9 @@ package com.jincou.goods.service.impl;
 import com.jincou.common.domain.Goods;
 import com.jincou.goods.dao.GoodsMapper;
 import com.jincou.goods.service.GoodsService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import javax.annotation.Resource;
 
 
 /**
@@ -17,7 +18,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class GoodsServiceImpl implements GoodsService {
 
-    @Autowired
+    @Resource
     private GoodsMapper videoMapper;
 
     @Override
